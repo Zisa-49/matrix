@@ -30,7 +30,7 @@ int main()
     for(i=0;i<r;i++)
     {
         printf("\t");
-        for(j=0;j<r;j++)
+        for(j=0;j<c;j++)
         {
             printf("%d ", A[i][j]);
         }
@@ -40,7 +40,7 @@ int main()
     for(i=0;i<r;i++)
     {
         printf("\t");
-        for(j=0;j<r;j++)
+        for(j=0;j<c;j++)
         {
             printf("%d ",B[i][j]);
         }
@@ -48,7 +48,7 @@ int main()
     }
     for(i=0;i<r;i++)
     {
-        for(j=0;j<r;j++)
+        for(j=0;j<c;j++)
         {
             C[i][j]=A[i][j]-B[i][j];
         }
@@ -57,7 +57,7 @@ int main()
     for(i=0;i<r;i++)
     {
 
-        for(j=0;j<r;j++)
+        for(j=0;j<c;j++)
         {
             printf("%d ",C[i][j]);
         }
